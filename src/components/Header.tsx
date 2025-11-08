@@ -19,16 +19,16 @@ export default function Header() {
   return (
     <header className="bg-white  shadow-md sticky top-0 z-50 border-b-4 border-amber-500">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-20">
+        <div className="flex justify-between items-center h-20 ">
           <Link to="/" className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-gradient-to-br from-blue-900 to-blue-700 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-xl">FW</span>
             </div>
-            <div className="block">
-              <div className="text-blue-900 font-bold text-lg leading-tight">
-                Doudou Roussel Fwamba Likunde
+            <div className="block max-w-1xl">
+              <div className="text-blue-900 font-bold texte-md md:text-lg leading-tight">
+                Doudou Fwamba Likunde
               </div>
-              <div className="text-amber-500 font-medium text-lg leading-tight">
+              <div className="text-amber-500 font-medium texte-sm md:text-lg leading-tight">
                 Ministre des Finances de la RDC
               </div>
             </div>
