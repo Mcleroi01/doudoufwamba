@@ -24,7 +24,7 @@ export default function Header() {
             <div className="w-12 h-12 bg-gradient-to-br from-blue-900 to-blue-700 rounded-full flex items-center justify-center">
               <span className="text-white font-bold text-xl">FW</span>
             </div>
-            <div className="hidden md:block">
+            <div className="block">
               <div className="text-blue-900 font-bold text-lg leading-tight">
                 Doudou Roussel Fwamba Likunde
               </div>
